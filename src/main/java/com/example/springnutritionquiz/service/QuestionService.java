@@ -41,4 +41,10 @@ public class QuestionService {
         questionDao.save(question);
         return new ResponseEntity<>("Question added successfully", HttpStatus.CREATED);
     }
+
+
+    public ResponseEntity<String> deleteQuestion(Question question){
+        questionDao.delete(question);
+        return new ResponseEntity<>("Question deleted successfully", HttpStatus.OK);
+    }
 }

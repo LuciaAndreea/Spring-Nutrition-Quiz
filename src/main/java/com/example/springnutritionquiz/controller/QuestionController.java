@@ -30,4 +30,9 @@ public class QuestionController {
     public ResponseEntity<String> addQuestion(@RequestBody Question question){
        return questionService.addQuestion(question);
     }
+
+    @DeleteMapping("delete")
+    public ResponseEntity<String> deleteQuestion(@RequestBody Question question){
+        return questionService.deleteQuestion(question);
+    }
 }
