@@ -17,4 +17,8 @@ public class QuestionService {
     public List<Question> getAllQuestions() {
        return questionDao.findAll();
     }
+
+    public List<Question> getQuestionsByDifficulty(String difficultyLevel) {
+        return questionDao.findByDifficultyLevel(difficultyLevel);
+    }
 }
