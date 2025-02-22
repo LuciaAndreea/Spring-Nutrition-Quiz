@@ -1,6 +1,6 @@
 package com.example.springnutritionquiz.service;
 
-import com.example.springnutritionquiz.Question;
+import com.example.springnutritionquiz.model.Question;
 import com.example.springnutritionquiz.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

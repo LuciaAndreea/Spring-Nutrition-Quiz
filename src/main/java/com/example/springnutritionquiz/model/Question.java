@@ -1,4 +1,4 @@
-package com.example.springnutritionquiz;
+package com.example.springnutritionquiz.model;
 
 
 import jakarta.persistence.Entity;
